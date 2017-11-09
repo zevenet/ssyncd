@@ -1,0 +1,5 @@
+.idea/
+bin/*
+*.user
+cmake-build-debug/
+remove/cmake/
