@@ -21,12 +21,8 @@
 #include "ctl_controller.h"
 #include "../connection/connection.h"
 #include "../debug/errors.h"
-#include "command_pkt.h"
 #include <cstring>
-#include <sys/socket.h>
-#include <sys/types.h>
 #include <sys/un.h>
-#include <zconf.h>
 #define XT_RECENT_APP_PATH "/tmp/ssyncd_path"
 
 ctl_controller::ctl_controller() {}

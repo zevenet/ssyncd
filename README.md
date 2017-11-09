@@ -1,8 +1,8 @@
 # [Zevenet ssyncd](https://www.zevenet.com)
 Enable replication of http sessions data and recent match sessions tables on Debian Gnu/Linux (Kernel version >= 3.2).
 
-# Features
-- Command line control for manipulating ssyncd stored data.
+## Features
+- Command line control for managing ssyncd stored data.
 - Recent match tables replication
 - HTTP sessions replication, includes support for Zevenet Pound session replication
 

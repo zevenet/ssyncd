@@ -19,13 +19,9 @@
  */
 
 #include "base_sync.h"
-#include "../debug/errors.h"
-#include "../xt_recent/xt_recent_proc.h"
 #include <algorithm>
 #include <cstring>
 #include <fcntl.h>
-#include <string.h>
-#include <thread>
 #include <unistd.h>
 
 base_sync::base_sync() {

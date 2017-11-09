@@ -20,17 +20,12 @@
 
 #include "connection.h"
 #include "../debug/errors.h"
-#include "conn_packet.h"
 #include <arpa/inet.h>
 #include <cstring>
 #include <fcntl.h>
-#include <iostream>
-#include <mutex>
 #include <netdb.h>
-#include <netinet/in.h>
 #include <netinet/tcp.h>
 #include <sys/epoll.h>
-#include <sys/socket.h>
 #include <zconf.h>
 using namespace std;
 

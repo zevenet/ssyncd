@@ -19,12 +19,9 @@
  */
 
 #include "sync_controller.h"
-#include "../debug/errors.h"
 #include "sync_backup.h"
 #include "sync_master.h"
 #include <cstring>
-#include <netinet/in.h>
-#include <sys/types.h>
 #include <sys/un.h>
 #include <zconf.h>
 

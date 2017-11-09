@@ -23,7 +23,6 @@
 #include <cstring>
 #include <dirent.h>
 #include <fstream>
-#include <iostream>
 #include <re2/re2.h>
 
 using std::string;

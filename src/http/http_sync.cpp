@@ -20,11 +20,9 @@
 
 #include "http_sync.h"
 #include "../debug/errors.h"
-#include "http_parser.h"
 #include "sys/socket.h"
 #include <cstring>
 #include <fcntl.h>
-#include <netinet/in.h>
 #include <sys/epoll.h>
 #include <sys/un.h>
 #include <zconf.h>

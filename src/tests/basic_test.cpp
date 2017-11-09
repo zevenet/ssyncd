@@ -21,10 +21,6 @@
 #include "basic_test.h"
 #include "../connection/connection.h"
 #include "../debug/errors.h"
-#include "../sync/pkt_parser.h"
-#include "../xt_recent/xt_recent_action.h"
-#include <thread>
-#include <vector>
 
 using namespace std;
 #define server_address "127.0.0.1"

@@ -19,7 +19,6 @@
  */
 
 #include "xt_recent_action.h"
-#include <time.h>
 // save current timestamp
 xt_recent_action::xt_recent_action() { this->pkt_len = 0; }
 

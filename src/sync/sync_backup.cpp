@@ -19,7 +19,6 @@
  */
 
 #include "sync_backup.h"
-#include "../debug/errors.h"
 #include <algorithm>
 #include <cstring>
 #include <fstream>

@@ -21,10 +21,7 @@
 #include "../debug/errors.h"
 #include "command_pkt.h"
 #include "ctl_controller.h"
-#include <getopt.h>
-#include <iostream>
 #include <sstream>
-#include <string>
 
 using namespace std;
 

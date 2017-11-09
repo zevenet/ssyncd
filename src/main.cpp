@@ -24,22 +24,14 @@
 
 #include "connection/connection.h"
 #include "debug/errors.h"
-#include "sync/pkt_parser.h"
 #include "sync/sync_backup.h"
 #include "sync/sync_controller.h"
-#include "sync/sync_master.h"
 #include "tests/basic_test.h"
-#include "xt_recent/xt_recent_action.h"
-#include "xt_recent/xt_recent_proc.h"
-#include <chrono>
 #include <cstring>
 #include <execinfo.h>
 #include <getopt.h>
-#include <iostream>
 #include <signal.h>   //signal(3)
 #include <sys/stat.h> //umask(3)
-#include <syslog.h>   //syslog(3), openlog(3), closelog(3)
-#include <thread>
 #include <unistd.h>
 using namespace std;
 
@@ -130,7 +122,7 @@ int daemonize(string name, string path, string outfile, string errfile,
 
 void show_help() {
 
-  string help = "Zevenet Software \n"
+  string help = "Zevenet Ssyncd v1.0.0 \n"
       "\n"
       "Usage: ssyncd -[MB] [adp]\n"
       "    \n"

@@ -19,9 +19,6 @@
  */
 
 #include "sync_master.h"
-#include "../debug/errors.h"
-#include "../xt_recent/xt_recent_proc.h"
-#include "../xt_recent/xt_recent_sync.h"
 #include <algorithm>
 #include <fstream>
 bool sync_master::handle_recent_sync(int fd) {

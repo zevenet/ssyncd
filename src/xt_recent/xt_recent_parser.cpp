@@ -22,7 +22,6 @@
 #include "../helpers/utils.h"
 #include "xt_recent_action.h"
 #include <cstring>
-#include <memory>
 
 conn_packet *xt_recent_table_parser::deserialize(unsigned char *buffer,
                                                  unsigned int buffer_size,
