@@ -1,4 +1,4 @@
-# [Zevenet ssyncd](https://www.zevenet.com)
+# [Zevenet ssyncd](https://www.relianoid.com)
 Enable replication of http sessions data and recent match sessions tables on Debian Gnu/Linux (Kernel version >= 3.2).
 
 ## Features
@@ -86,5 +86,5 @@ All reported bugs, new features and patches are welcomed.
 Please use the [GitHub project Issues](https://github.com/zevenet/ssyncd/issues) to report any issue or bug with the software. Try to describe the problem and a way to reproduce it. It'll be useful to attach the service and network configurations as well as system and services logs.
 
 
-### [www.zevenet.com](https://www.zevenet.com)
+### [www.relianoid.com](https://www.relianoid.com)
 
